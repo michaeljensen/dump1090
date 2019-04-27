@@ -1,6 +1,6 @@
 # docker build -t dump1090 .
-# docker run --device=/dev/bus/usb -p 8080:8080 -p 8888:80 -p 30003:30003 dump1090-fa
-# then connect to http://localhost:8888
+# docker run --device=/dev/bus/usb -p 8080:80 -p 30003:30003 dump1090
+# then connect to http://localhost:8080/dump1090-fa/
 
 FROM debian:stretch-slim
 
